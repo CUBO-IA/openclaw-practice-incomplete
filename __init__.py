@@ -1,2 +1,2 @@
-"""Caregiver Agent (Salud Pro) — núcleo local determinista."""
-__version__ = "0.1.0"
+"""Núcleo de datos: conexión, repositorios, auditoría, permisos y validación."""
+from .db import connect, Database  # noqa: F401
